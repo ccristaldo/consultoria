@@ -1,0 +1,44 @@
+.body{
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+h3, h2{
+    text-align: center;
+}
+@media print {
+    body{
+        width: 21cm;
+        height: 29.7cm;
+        margin:2px 1em 0 auto; 
+        /* Arriba | Derecha | Abajo | Izquierda */
+        /* change the margins as you want them to be. */
+           } 
+}
+
+.tabulacion:first-letter {
+	margin-left: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: auto;
+    
+    
+}
+td, th { 
+    border: 1px solid black; 
+    height: 30px; 
+    padding: 1px;
+}
+
+#fecha{
+    text-align: right;
+}
+
+.firma{
+    text-align: right;
+    margin-right: 40px;
+}
+
+

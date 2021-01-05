@@ -1,0 +1,61 @@
+@media print {
+    body{
+        width: 21cm;
+        height: 29.7cm;
+        margin:2px 1em 0 auto; 
+        /* Arriba | Derecha | Abajo | Izquierda */
+        /* change the margins as you want them to be. */
+           } 
+}
+
+.body{
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+h3, h2{
+    text-align: center;
+}
+
+/*
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
+
+  ul li {
+    padding-left: 2rem;
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+  }
+
+  table{
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin: auto;
+    width: auto;
+}
+*/
+
+td, th { 
+    /*border: 1px solid black; */
+    height: 20px; 
+    width: 80;
+    padding: auto;
+    padding-left: 30px;
+}
+
+div{
+	width: 200px;
+	/*padding: 25px 0;*/
+	margin: 0;
+}
+.container{
+    position: relative;
+	padding: 0;
+}
+
+.container .firma{
+    position: absolute;
+	left: 500px;
+	top: 0;
+}
